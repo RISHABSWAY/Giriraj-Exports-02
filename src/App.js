@@ -2,10 +2,13 @@ import CopperProduct from "./Products/CopperProduct";
 
 
 
+
 function App() {
   return (
     <>
+    
     <CopperProduct/>
+    
     </>
   );
 }

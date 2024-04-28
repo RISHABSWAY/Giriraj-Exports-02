@@ -9,6 +9,7 @@ import BrowseAllCollection from './Products/BrowseAllCollection';
 import ColoredCollection from './Products/ColoredCollection';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Home from './Products/Home';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +17,8 @@ root.render(
   <BrowserRouter>
   <Navbar/>
     <Routes>
-      <Route path='/' element={<CopperProduct/>}/>
+    <Route path='/' element={<Home/>}/>
+      <Route path='/CopperProduct' element={<CopperProduct/>}/>
       <Route path='/antique-bottle-collection' element={<AntiqueCollections/>}/>
       <Route path='/all-bottle-collection' element={<BrowseAllCollection/>}/>
       <Route path='/colored-bottle-collection' element={<ColoredCollection/>}/>

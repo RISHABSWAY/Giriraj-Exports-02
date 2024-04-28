@@ -20,7 +20,7 @@ const Navbar = () => {
         <img src={Logo} alt="Logo" className="h-16 m-0" />
         </Link>
       </section>
-        <Link to="/" className="hidden lg:block text-lg font-serif">Copper Collections</Link>
+        <Link to="CopperProduct/" className="hidden lg:block text-lg font-serif">Copper Collections</Link>
           <Link to="/" className="hidden lg:block text-lg font-serif">Brass Collections</Link>
           <Link to="/" className="hidden lg:block text-lg font-serif">Bronze Collections</Link>
           <Link to="/" className="hidden lg:block text-lg font-serif">Spiritual Collections</Link>

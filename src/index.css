@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Signika:wght@300..700&family=Sintony:wght@400;700&display=swap');
+.font-header{
+  font-family: "Signika", sans-serif;
+}
+.font-desc{
+  font-family: "Sintony", sans-serif;
+}
+.font-button{
+  font-family: "Martel", serif;
+}
+
+
+
+
+
+/* 
+animation here */
+
+@keyframes pop-up {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-pop-up {
+  animation: pop-up 0.3s ease-out;
+}
+
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.5s ease forwards;
+}
